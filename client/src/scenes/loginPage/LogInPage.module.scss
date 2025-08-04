@@ -1,0 +1,39 @@
+// LoginPage.module.scss
+.loginContainer {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  padding: 1rem 6%;
+  text-align: center;
+
+  &__title {
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+
+.content {
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 1.5rem;
+
+  &__title {
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Адаптивные стили
+@media (max-width: 999px) {
+  .content {
+    width: 93%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .content {
+    width: 50%;
+  }
+}
